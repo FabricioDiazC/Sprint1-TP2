@@ -1,9 +1,4 @@
 import path from 'path';
-import { fileURLToPath } from 'url';
-
-// Define __dirname equivalent for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(__filename);
 
 // Definir una ruta de archivo de ejemplo
 const filePath = './data/example.txt';
